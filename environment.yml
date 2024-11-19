@@ -2,6 +2,7 @@ channels:
   - conda-forge
 
 dependencies:
+  - python-3.11
   - jupyterhub-singleuser>=3.0,<4.0
 
   # Everyone wants to use nbgitpuller for everything, so let's do that
@@ -10,3 +11,12 @@ dependencies:
   - pip
   - pip:
     - otter-grader
+    - ipywidgets
+    - alive_progress
+    - datascience
+    - jupyterquiz
+    - py3Dmol
+    - eds-mod
+    - sgdml[ase]
+    - torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+    - sentence-transformers
