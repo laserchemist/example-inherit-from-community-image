@@ -17,6 +17,5 @@ dependencies:
     - jupyterquiz
     - py3Dmol
     - sgdml[ase]
-    - torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
     - sentence-transformers
 
